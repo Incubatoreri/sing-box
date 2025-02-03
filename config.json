@@ -35,13 +35,6 @@
      {"clash_mode": "Global", "server": "fakeip"},
      {"rule_set": "geosite-cn", "action": "route","server": "dns_direct"},
      {"rule_set": "geosite-geolocation-!cn", "server": "fakeip"}
-     {
-      "query_type": [
-        "A",
-        "AAAA"
-      ],
-      "server": "fakeip"
-    }
    ],
    
    "final": "dns_direct",
